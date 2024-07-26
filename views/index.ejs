@@ -13,9 +13,9 @@
     <div class="messages">
       <% messages.forEach((message)=>{ %>
         <div class="message">
-          <div class="user"><%= message.user %></div>
-          <div class="text"><%= message.text %></div>
-          <div class="date"><%= message.added %></div>
+          <div class="user"><%= message.username %></div>
+          <div class="text"><%= message.message %></div>
+          <div class="date"><%= message.date %></div>
         </div>
         <br>
       <% }) %>
